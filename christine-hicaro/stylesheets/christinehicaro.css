@@ -18,14 +18,14 @@
      left: 95px;}
 #name{font-family: "Bitter";
       font-size: 60px;}
-#experience{height:600px;
+#experience{height:700px;
             width: 1290px;
             background-color: #CCFFFF}
 #experience-body{width: 1000px;
                  float: right;
                  position: relative;
                  top: 30px;
-                 left: 100px;
+                 left: 90px;
                  font-family: "Bitter"}
 #experience-heading{float: left;
                     position: relative;
@@ -44,3 +44,5 @@
 #fermi-image{float: right;
             position:relative;
             left: -30px;}
+.experience-intro{font-size: 25px;}
+#cssi-text{font-size: 18px;}
