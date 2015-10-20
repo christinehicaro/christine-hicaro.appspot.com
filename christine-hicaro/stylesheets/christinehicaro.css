@@ -18,14 +18,15 @@
      left: 95px;}
 #name{font-family: "Bitter";
       font-size: 60px;}
-#experience{height:700px;
+
+#experience{height:850px;
             width: 1290px;
             background-color: #CCFFFF}
 #experience-body{width: 1000px;
                  float: right;
                  position: relative;
                  top: 30px;
-                 left: 90px;
+                 left: 80px;
                  font-family: "Bitter"}
 #experience-heading{float: left;
                     position: relative;
@@ -34,7 +35,7 @@
                 position: relative;
                 top: 30px;
                 left: 85px;}
-#experience-header{font-family: "Bitter";
+.section-header{font-family: "Bitter";
                    font-size: 50px;
                    position: relative;
                    left: 30px;}
@@ -45,4 +46,21 @@
             position:relative;
             left: -30px;}
 .experience-intro{font-size: 25px;}
-#cssi-text{font-size: 18px;}
+.experience-text{font-size: 18px;}
+
+#education{height:600px;
+            width: 1290px;
+            background-color: #FFFF99}
+#education-body{width: 750px;
+       float: right;
+       position: relative;
+       top: 30px;
+       left: 200px;
+       font-family: "Bitter"}
+#education-heading{float: left;
+         position: relative;
+         left: 300px;}
+#education-sub{float:left;
+     position: relative;
+     top: 30px;
+     left: 95px;}
