@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
 @import url(http://fonts.googleapis.com/css?family=Bitter);
-#top-portion{height:600px;
+#top-portion{height:620px;
             width: 1290px;
             background-color: #CCFFCC}
 #intro{width: 750px;
@@ -17,7 +17,7 @@
      top: 30px;
      left: 95px;}
 #name{font-family: "Bitter";
-      font-size: 60px;}
+      font-size: 70px;}
 
 #experience{height:850px;
             width: 1290px;
