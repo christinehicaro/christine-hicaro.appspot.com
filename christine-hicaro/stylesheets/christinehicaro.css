@@ -48,14 +48,14 @@
 .experience-intro{font-size: 25px;}
 .experience-text{font-size: 18px;}
 
-#education{height:600px;
+#education{height:575px;
             width: 1290px;
             background-color: #FFFF99}
 #education-body{width: 750px;
        float: right;
        position: relative;
-       top: 30px;
-       left: 200px;
+       top: 40px;
+       left: 145px;
        font-family: "Bitter"}
 #education-heading{float: left;
          position: relative;
@@ -64,3 +64,7 @@
      position: relative;
      top: 30px;
      left: 95px;}
+#isu-image{float:right;
+           position: relative;
+           top: -50px;
+           left: 70px;}
