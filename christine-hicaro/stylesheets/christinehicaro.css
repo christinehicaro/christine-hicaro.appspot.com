@@ -45,17 +45,17 @@
 #fermi-image{float: right;
             position:relative;
             left: -30px;}
-.experience-intro{font-size: 25px;}
-.experience-text{font-size: 18px;}
+.body-intro{font-size: 25px;}
+.body-text{font-size: 18px;}
 
 #education{height:575px;
             width: 1290px;
             background-color: #FFFF99}
-#education-body{width: 750px;
+#education-body{width: 850px;
        float: right;
        position: relative;
        top: 40px;
-       left: 145px;
+       left: 110px;
        font-family: "Bitter"}
 #education-heading{float: left;
          position: relative;
@@ -67,4 +67,21 @@
 #isu-image{float:right;
            position: relative;
            top: -50px;
-           left: 70px;}
+           left: 45px;}
+
+#activities{height:1000px;
+           width: 1290px;
+           background-color: #FFCC99}
+#activities-body{width: 1000px;
+      float: right;
+      position: relative;
+      top: 40px;
+      left: 40px;
+      font-family: "Bitter"}
+#activities-heading{float: left;
+        position: relative;
+        left: 115px;}
+#activities-sub{float:left;
+    position: relative;
+    top: 30px;
+    left: 95px;}
