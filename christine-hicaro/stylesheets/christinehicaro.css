@@ -72,15 +72,15 @@
 #activities{height:1000px;
            width: 1290px;
            background-color: #FFCC99}
+#activities-heading{float: left;
+       position: relative;
+       left: 105px;}
 #activities-body{width: 1000px;
       float: right;
       position: relative;
       top: 40px;
       left: 40px;
       font-family: "Bitter"}
-#activities-heading{float: left;
-        position: relative;
-        left: 115px;}
 #activities-sub{float:left;
     position: relative;
     top: 30px;
