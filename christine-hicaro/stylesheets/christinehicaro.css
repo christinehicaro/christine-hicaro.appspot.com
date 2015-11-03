@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter);
 #top-portion{height:620px;
             width: 1290px;
-            background-color: #CCFFCC}
+            background-color: #99FFCC}
 #intro{width: 750px;
        float: right;
        position: relative;
@@ -74,7 +74,7 @@
            background-color: #FFCC99}
 #activities-heading{float: left;
        position: relative;
-       left: 105px;}
+       left: 98px;}
 #activities-body{width: 1000px;
       float: right;
       position: relative;
