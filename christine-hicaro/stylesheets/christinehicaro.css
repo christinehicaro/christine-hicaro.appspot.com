@@ -1,8 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
 @import url(http://fonts.googleapis.com/css?family=Bitter);
+/*heading info*/
 #top-portion{height:620px;
             width: 1290px;
-            background-color: #99FFCC}
+            background-color: #CCFFCC}
 #intro{width: 750px;
        float: right;
        position: relative;
@@ -19,6 +20,7 @@
 #name{font-family: "Bitter";
       font-size: 70px;}
 
+/*experience section*/
 #experience{height:850px;
             width: 1290px;
             background-color: #CCFFFF}
@@ -48,6 +50,7 @@
 .body-intro{font-size: 25px;}
 .body-text{font-size: 18px;}
 
+/*education section*/
 #education{height:575px;
             width: 1290px;
             background-color: #FFFF99}
@@ -69,6 +72,7 @@
            top: -50px;
            left: 45px;}
 
+/*activities section*/
 #activities{height:1000px;
            width: 1290px;
            background-color: #FFCC99}
@@ -85,3 +89,21 @@
     position: relative;
     top: 30px;
     left: 95px;}
+
+/* projects section*/
+#projects{height:575px;
+        width: 1290px;
+        background-color: #FFCCCC}
+#projects-sub{float:left;
+    position: relative;
+    top: 30px;
+    left: 95px;}
+#projects-heading{float: left;
+         position: relative;
+         left: 200px;}
+#projects-body{width: 850px;
+       float: right;
+       position: relative;
+       top: 40px;
+       left: -200px;
+       font-family: "Bitter"}
