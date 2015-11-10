@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter);
 /*heading info*/
 #top-portion{height:620px;
-            width: 1290px;
+            width: 1350px;
             background-color: #CCFFCC}
 #intro{width: 750px;
        float: right;
@@ -22,7 +22,7 @@
 
 /*experience section*/
 #experience{height:850px;
-            width: 1290px;
+            width: 1350px;
             background-color: #CCFFFF}
 #experience-body{width: 1000px;
                  float: right;
@@ -52,7 +52,7 @@
 
 /*education section*/
 #education{height:575px;
-            width: 1290px;
+            width: 1350px;
             background-color: #FFFF99}
 #education-body{width: 850px;
        float: right;
@@ -74,7 +74,7 @@
 
 /*activities section*/
 #activities{height:1000px;
-           width: 1290px;
+           width: 1350px;
            background-color: #FFCC99}
 #activities-heading{float: left;
        position: relative;
@@ -92,7 +92,7 @@
 
 /* projects section*/
 #projects{height:575px;
-        width: 1290px;
+        width: 1350px;
         background-color: #FFCCCC}
 #projects-sub{float:left;
     position: relative;
@@ -105,5 +105,5 @@
        float: right;
        position: relative;
        top: 40px;
-       left: -200px;
+       left: -250px;
        font-family: "Bitter"}
