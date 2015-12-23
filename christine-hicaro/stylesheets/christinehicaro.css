@@ -1,24 +1,37 @@
 @import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
 @import url(http://fonts.googleapis.com/css?family=Bitter);
+body,html{height: 100%;
+          width: 100%}
+
 /*heading info*/
-#top-portion{height:620px;
+#top-portion{height:550px;
             width: 1350px;
             background-color: #CCFFCC}
 #intro{width: 750px;
        float: right;
        position: relative;
-       top: 30px;
+       top: 10px;
        left: 200px;
        font-family: "Bitter"}
 #heading{float: left;
          position: relative;
-         left: 270px;}
+         left: 310px;}
 #sub{float:left;
      position: relative;
      top: 30px;
      left: 95px;}
 #name{font-family: "Bitter";
       font-size: 70px;}
+
+/*Jumpers*/
+.sections{height: 50px;
+          width: 1350px;
+          font-size: 25px;
+          font-family: "Bitter"}
+#experience-jumper{background-color: #CCFFFF}
+#education-jumper{background-color: #FFFF99}
+#activities-jumper{background-color: #FFCC99}
+#projects-jumper{background-color: #FFCCCC}
 
 /*experience section*/
 #experience{height:850px;
@@ -79,6 +92,7 @@
 #activities-heading{float: left;
        position: relative;
        left: 98px;}
+#activities-title{top: 15px;}
 #activities-body{width: 1000px;
       float: right;
       position: relative;
