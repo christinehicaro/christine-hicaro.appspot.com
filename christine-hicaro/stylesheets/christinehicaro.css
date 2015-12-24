@@ -6,7 +6,8 @@ body,html{height: 100%;
 /*heading info*/
 #top-portion{height:550px;
             width: 1350px;
-            background-color: #CCFFCC}
+            background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTolFZO0OV5pdXhmqa8NZn-k3-wutlQeP-lKhh71piuvEoN8hOQ)
+             }
 #intro{width: 750px;
        float: right;
        position: relative;
@@ -19,24 +20,24 @@ body,html{height: 100%;
 #sub{float:left;
      position: relative;
      top: 30px;
-     left: 95px;}
+     left: 80px;}
 #name{font-family: "Bitter";
       font-size: 70px;}
-
 /*Jumpers*/
 .sections{height: 50px;
           width: 1350px;
           font-size: 25px;
           font-family: "Bitter"}
-#experience-jumper{background-color: #CCFFFF}
-#education-jumper{background-color: #FFFF99}
-#activities-jumper{background-color: #FFCC99}
-#projects-jumper{background-color: #FFCCCC}
+/*#experience-jumper{background-color: #CCFFFF}*/
+#experience-jumper{background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk7h-xOjYf2CU_5WCkLwgYZ9QE3x00wu4_2IqhDOcXfw36JpEU)}
+#education-jumper{background-image: url(http://bashooka.com/wp-content/uploads/2012/04/patterns_4.jpg)}
+#activities-jumper{background-image: url(http://www.noupe.com/wp-content/uploads/2009/10/pattern-07.jpg)}
+#projects-jumper{background-image: url(http://turbo.designwoop.com/uploads/2012/03/12_free_subtle_textures_free_web_backgrounds.jpg)}
 
 /*experience section*/
 #experience{height:850px;
             width: 1350px;
-            background-color: #CCFFFF}
+            background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk7h-xOjYf2CU_5WCkLwgYZ9QE3x00wu4_2IqhDOcXfw36JpEU)}
 #experience-body{width: 1000px;
                  float: right;
                  position: relative;
@@ -66,7 +67,7 @@ body,html{height: 100%;
 /*education section*/
 #education{height:575px;
             width: 1350px;
-            background-color: #FFFF99}
+            background-image: url(http://bashooka.com/wp-content/uploads/2012/04/patterns_4.jpg)}
 #education-body{width: 850px;
        float: right;
        position: relative;
@@ -88,11 +89,12 @@ body,html{height: 100%;
 /*activities section*/
 #activities{height:1000px;
            width: 1350px;
-           background-color: #FFCC99}
+           background-image: url(http://www.noupe.com/wp-content/uploads/2009/10/pattern-07.jpg)}
 #activities-heading{float: left;
        position: relative;
        left: 98px;}
-#activities-title{top: 15px;}
+#activities-title{top: 15px;
+                  left: 45px}
 #activities-body{width: 1000px;
       float: right;
       position: relative;
@@ -102,12 +104,12 @@ body,html{height: 100%;
 #activities-sub{float:left;
     position: relative;
     top: 30px;
-    left: 95px;}
+    left: 105px;}
 
 /* projects section*/
 #projects{height:575px;
         width: 1350px;
-        background-color: #FFCCCC}
+        background-image: url(http://turbo.designwoop.com/uploads/2012/03/12_free_subtle_textures_free_web_backgrounds.jpg)}
 #projects-sub{float:left;
     position: relative;
     top: 30px;
