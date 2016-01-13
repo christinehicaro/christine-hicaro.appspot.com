@@ -6,7 +6,7 @@ body,html{height: 100%;
 /*heading info*/
 #top-portion{height:550px;
             width: 1350px;
-            background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTolFZO0OV5pdXhmqa8NZn-k3-wutlQeP-lKhh71piuvEoN8hOQ)
+            background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/pink_rice.png)
              }
 #intro{width: 750px;
        float: right;
@@ -87,7 +87,7 @@ body,html{height: 100%;
            left: 45px;}
 
 /*activities section*/
-#activities{height:1000px;
+#activities{height:1100px;
            width: 1350px;
            background-image: url(http://www.noupe.com/wp-content/uploads/2009/10/pattern-07.jpg)}
 #activities-heading{float: left;
