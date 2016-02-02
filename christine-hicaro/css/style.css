@@ -2,6 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 
 body{width:100%;}
+
+/*navbar*/
 ul{
     list-style-type: none;
     margin: 0;
@@ -13,7 +15,7 @@ ul{
 li {
     float: right;
 		position: relative;
-		left: -150px;
+		left: -285px;
 }
 
 li a {
@@ -30,17 +32,17 @@ li a:hover {
     background-color: #111;
 }
 
+/*main header section*/
 #block{position:relative;}
 
-.section-info{padding: 30px;
-							font-family: Lora;}
-
+/*about section*/
 #about{background-color: #CBE32D;
 			 color: white;
 		 	 font-size: 20px;}
 
-#relevant-experience{background: #67BCDB;
-										 color: white;}
+/*general class declarations*/
+.section-info{padding: 30px;
+							font-family: Lora;}
 
 .section-title{font-size: 60px;}
 
@@ -58,6 +60,10 @@ strong{font-size: 30px;}
 								 	 padding-right: 10px;
 								 	 padding-bottom: 10px}
 
+/*relevant experience section*/
+#relevant-experience{background: #67BCDB;
+										 color: white;}
+
 google-image{position:relative;
 							top: -10px;}
 
@@ -70,3 +76,20 @@ google-image{position:relative;
 
 #fermi-image{position:relative;
 				 	 top: -20px;}
+
+#activities{background: #E44424;
+						color: white;}
+
+/*education section*/
+#education{background: #74AFAD;
+					color: white;}
+
+#isu-coe-image{position:relative;
+              left: 15px;}
+
+#lths-image{position:relative;
+              top: -60px;}
+
+
+/*footer section*/
+#footer{background:#dddddd;}
