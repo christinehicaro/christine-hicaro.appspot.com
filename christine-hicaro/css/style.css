@@ -15,7 +15,7 @@ ul{
 li {
     float: right;
 		position: relative;
-		left: -285px;
+		left: -290px;
 }
 
 li a {
@@ -81,14 +81,16 @@ google-image{position:relative;
 						color: white;}
 
 /*education section*/
-#education{background: #74AFAD;
+#education{background: #A8CD1B;
 					color: white;}
 
 #isu-coe-image{position:relative;
-              left: 15px;}
+              left: 15px;
+              top: -20px;}
 
 #lths-image{position:relative;
-              top: -60px;}
+              top: -60px;
+              left: 20px;}
 
 
 /*footer section*/
