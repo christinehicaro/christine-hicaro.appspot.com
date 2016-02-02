@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body{width:100%;}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background-color: #dddddd;
+}
+
+li {
+    float: right;
+		position: relative;
+		left: -150px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+		font-family: Bitter;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#block{position:relative;}
+
+.section-info{padding: 30px;
+							font-family: Lora;}
+
+#about{background-color: #CBE32D;
+			 color: white;
+		 	 font-size: 20px;}
+
+#relevant-experience{background: #67BCDB;
+										 color: white;}
+
+.section-title{font-size: 60px;}
+
+.sub-section{font-size: 25px;
+						 padding: 10px;}
+
+.picture{float: right;
+				padding-left: 10px;
+				padding-right: 10px}
+
+strong{font-size: 30px;}
+
+.general-paragraph{font-size: 20px;
+									 padding-left: 10px;
+								 	 padding-right: 10px;
+								 	 padding-bottom: 10px}
+
+google-image{position:relative;
+							top: -10px;}
+
+#isu-image{position:relative;
+					 left: 20px;
+				 	 top: -5px;}
+
+#google-image-cssi{position:relative;
+							top: -15px;}
+
+#fermi-image{position:relative;
+				 	 top: -20px;}
