@@ -5,12 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Christine Hicaro</title>
-        <meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
-        <meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
-        <meta name="author" content="Codrops" />
-				<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="../favicon.ico">
 				<!-- <link rel="stylesheet" type="text/css" href="css/practice-website.css" /> -->
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -20,138 +17,111 @@
         <![endif]-->
 	</head>
 	<body>
-		<div class = "navbar">
-			<ul>
-				<li><a href="img/resume.pdf" target = "_blank">Resume</a></li>
-				<li><a href=#education class="smoothScroll">Education</a></li>
-				<!-- <li><a href=#projects>Projects</a></li> -->
-				<li><a href=#activities class="smoothScroll">Activities</a></li>
-				<li><a href=#relevant-experience class="smoothScroll">Relevant Experience</a></li>
-				<li><a href=#about class="smoothScroll">About</a></li>
-				<!-- </center> -->
-			</ul>
-		</div>
-		<div id = "block" class="container demo-4">
-			<div class="content">
-                <div id="large-header" class="large-header">
-                    <canvas id="demo-canvas"></canvas>
-                    <h1 class="main-title">Christine Hicaro</span></h1>
-                </div>
-			</div><!-- /container -->
-		</div>
 
-		<div id="about">
-			<div class = "section-info">
-				<center class = "section-title">About</center>
-				<p>Heyo! I'm Christine, a first-year software engineering student at Iowa State University. Originally from La Grange, IL, a suburb of Chicago (I'm not from Chicago Chicago), I tried to switch it up by spending the next couple of years in Ames, Iowa. If you should know one thing about me, it is that I love programming and technology. Other than coding, some of my favorite things are Blue Mountain State, Cookie Dough Creations cookie dough, and, of course, my dog. If you like what you see on this website, don't hesitate to reach out to me. I'm always looking for opportunities to become more involved in all things techy. Thanks for visiting my page!</p>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#" class = "smoothScroll">Christine Hicaro</a>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<!-- <li class="active"><a href="#" class = "smoothScroll">Home</a></li> -->
+						<li><a href=#about class = "smoothScroll">About</a></li>
+						<li><a href=#relevant-experience class = "smoothScroll">Relevant Experience</a></li>
+						<li><a href=#education class="smoothScroll">Education</a></li>
+						<li><a href=#honors-awards class="smoothScroll">Honors & Awards</a></li>
+						<li><a href=#activities class="smoothScroll">Activities & Leadership</a></li>
+						<li><a href=#projects class="smoothScroll">Projects</a></li>
+						<li><a href="img/resume.pdf" target = "_blank">Resume</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</nav>
+
+		<!-- jumbotron -->
+		<div class="jumbotron">
+			<div class="container" id ="jumbocontent">
+				<center><h1 id = "jumboname">Christine Hicaro</h1></center>
+				<br>
+				<br>
+				<br>
+				<center><p id = "jumbodescription">Aspiring software engineer.</p></center>
 			</div>
 		</div>
 
-		<div id="relevant-experience">
-			<div class = "section-info">
-				<center class = "section-title">Relevant Experience</center>
+		<!-- about section -->
+		<div class = "section" id = "about">
+			<div class = "sub-section">
+				<center><h1 class = "section-header">About</h1></center>
+				<img src = "img/christinehicaro.jpg" id = "christinehicaro-pic">
+				<div class = "paragraph" id = "about-paragraph">
+					<p>Heyo! I'm Christine, a first-year software engineering student at Iowa State University. Originally from La Grange, IL, a suburb of Chicago (I'm not from Chicago Chicago), I tried to switch it up by spending the next couple of years in Ames, Iowa. If you should know one thing about me, it is that I love programming and technology. Other than coding, some of my favorite things are Blue Mountain State, Nutella, and, of course, my dog. If you like what you see on this website, don't hesitate to reach out to me. I'm always looking for opportunities to become more involved in all things techy. Thanks for visiting my page!</p>
+				</div>
+			</div>
+		</div>
 
-				<p>
-					<div class = "sub-section">
-						<strong>Incoming Engineering Practicum Intern</strong> - Google, Inc.
-						<br>
-						Los Angeles, CA, Summer 2016
-						<img id = "google-image" class = "picture" src = "http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" height = "100px" width = "285px">
-					</div>
-					<p class = "general-paragraph">
-						I will be working on the frontend and backend of the UI for Athena, a Google display/video ads product! I will also participate in skills-based workshops and attend technical talks for 12 weeks.
-					</p>
-				</p>
+		<!-- relevant experience section -->
+		<div class = "section" id = "relevant-experience">
+			<div class = "sub-section">
+				<center><h1 class = "section-header">Relevant Experience</h1></center>
 
-				<p>
-					<div class = "sub-section">
-						<strong>Undergraduate Research Assistant</strong> - Iowa State University
-						<br>
-						Ames, IA, January 2016 - Present
-						<img id = "isu-image" class = "picture" src = "http://pub-images.canvasnetwork.com/CN-1788-logo-Iowa-State.png" height = "70px" width = "420px">
+				<!-- EP section -->
+				<img src = "http://res.cloudinary.com/demo/image/fetch/fl_png8/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" id = "google-logo-EP" height = "175px">
+				<div class = "sub-title" id = "EP-sub-title">
+					<h2 class = "sub-title-header" id = "EP-title"> Incoming Engineering Practicum Intern </h2>
+					<div id = "EP-heading-sub" class = "sub-sub-title-header">
+						<h2 id = "EP-location-date"> Los Angeles, CA  - Summer 2016</h2>
 					</div>
-					<p class = "general-paragraph">
-						As a participant in the First-Year Honors Mentorship Program, I am creating an internal web application for Candoia, a software platform, under the mentorship of Dr. Hridesh Rajan. The web application will utilize HTML, CSS, JavaScript, and the Boa query language with the intention of data mining from Github.
-					</p>
-				</p>
+				</div>
+				<div class = "sub-info" id = "EP-info">
+					<br>
+					<br>
+					<br>
+					<p> I will be working on the frontend and backend of the UI for Athena, a Google display ads product! I will also participate in skills-based workshops and attend technical talks for 12 weeks.</p>
+					<p><strong>Potential Languages:</strong> Java, Javascript, HTML, CSS</p>
+				</div>
 
-				<p>
-					<div class = "sub-section">
-						<strong>Computer Science Summer Institute Participant</strong> - Google, Inc.
-						<br>
-						Chicago, IL, July 2015
-						<img id = "google-image-cssi" class = "picture" src = "http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" height = "100px" width = "285px">
+				<!-- FHMP section -->
+				<img src = "http://cmp.physics.iastate.edu/ultrafast/IowaState.gif" id = "iowa-state-logo-fhmp" height = "140px">
+				<div class = "sub-title" id = "fhmp-sub-title">
+					<h2 class = "sub-title-header" id = "fhmp-title"> Undergraduate Research Assistant </h2>
+					<div class = "sub-sub-title-header" id = "fhmp-heading-sub">
+						<h2 id = "fhmp-location-date"> Ames, IA  - Spring 2016</h2>
 					</div>
-					<p class = "general-paragraph">
-						Computer Science Summer Institute is a 3-week program for rising freshmen in college who are passionate about technology. I was one of 30 chosen to participate in the first CSSI program held at the Chicago Google office. During the first two weeks, I was taught the basics of web development by Google engineers; I learned how to utilize HTML, CSS, JavaScript/JQuery, Python, JSON, APIs, datastore, and Google App Engine. The third week, I teamed up with two other CSSIers to create a web app, Buildmymusic, from scratch.
-					</p>
-				</p>
+				</div>
+				<div class = "sub-info" id = "fhmp-info">
+					<br>
+					<br>
+					<br>
+					<p> As a participant in the First-Year Honors Mentorship Program, I am creating an internal web application for Candoia, a software platform, under the mentorship of Dr. Hridesh Rajan. The purpose of the web application is to data mine from Github.</p>
+					<p><strong>Languages Utilized:</strong> Boa, Javascript, HTML, CSS</p>
+				</div>
 
-				<p>
-					<div class = "sub-section">
-						<strong>TARGET Intern</strong> - Fermilab (FNAL)
-						<br>
-						Batavia, IL, June-July 2013
-						<img id = "fermi-image" class = "picture" src = "http://www.fnal.gov/faw/designstandards/filesfordownload/FNAL-Logo-NAL-Blue.jpg" height = "100px" width = "320px">
+				<img src = "http://res.cloudinary.com/demo/image/fetch/fl_png8/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" id = "google-logo-CSSI" height = "175px">
+				<div class = "sub-title" id = "CSSI-sub-title">
+					<h2 class = "sub-title-header" id = "CSSI-title"> Computer Science Summer Institute (CSSI) Participant </h2>
+					<div class = "sub-sub-title-header" id = "CSSI-heading-sub">
+						<h2 id = "CSSI-location-date"> Chicago, IL - July 2015</h2>
 					</div>
-					<p class = "general-paragraph">
-						TARGET is a 6-week summer engineering program consisting of an internship and afternoon classes. I was 1 of 18 chosen out of 200 applicants to participate in the program. For my internship portion, I helped create a Microsoft SharePoint site for the Benefits Office of Human Resources and also learned elementary physics in relation to the ASTA magnet at the lab from a physicist. Afternoon classes consisted of completing the following engineering-based projects: soldering a radio, building/soldering a power supply, soldering a detector, designing a rocket cap with AutoCAD, creating a 3D object of choice with AutoCAD, building a Newton's cradle, and making/designing a boomerang.
-					</p>
-				</p>
+				</div>
+				<div class = "sub-info" id = "CSSI-info">
+					<br>
+					<br>
+					<br>
+					<p> CSSI is a 3-week program for rising freshmen in college who are passionate about technology. I was one of 30 chosen to participate in the first CSSI program held at the Chicago Google office. During the first two weeks, I was taught the basics of web development by Google engineers. The third week, I teamed up with two other CSSIers to create a web app, Buildmymusic, from scratch.</p>
+					<p><strong>Languages and Tools Utilized:</strong> HTML, CSS, JavaScript, JQuery, Python, JSON, APIs, datastore, Google App Engine</p>
+				</div>
 
 			</div>
 		</div>
 
-		<div id="activities">
-			<div class = "section-info">
-				<center class = "section-title">Activities</center>
-				<p>
-					<div class = "sub-section">
-						<strong>Society of Women Engineers (SWE)</strong> - Freshman Representative (Fall '15), Webmaster
-						<br>
-						<strong>Digital Women</strong> - Grace Hopper Chair
-						<br>
-						<strong>Web Development Club</strong> - Outreach Chair
-						<br>
-						<strong>Freshmen Leaders in Engineering (FLiE)</strong> - Member (Fall '15)
-						<br>
-						<strong>HackISU</strong> - Hacker/Participant (Fall '15)
-					</div>
-				</p>
-			</div>
-		</div>
 
-		<div id="education">
-			<div class = "section-info">
-				<center class = "section-title">Education</center>
-				<p>
-					<div class = "sub-section">
-						<strong>Iowa State University</strong>, 3.81/4.00 GPA
-						<br>
-						Ames, IA, BS in Software Engineering expected May 2019
-						<img id = "isu-coe-image" class = "picture" src = "https://www.teenlife.com/media/uploads/listings/iowa-state-university-college-of-engineering/Y2V9bmt1B3EG.jpg" height = "90px" width = "420px">
-					</div>
-					<p class = "general-paragraph">
-						Honors: George Washington Carver Scholar (recipient of full-tuition scholarship), University Honors Program, Dean's List Fall '15
-					</p>
-				</p>
-
-				<p>
-					<div class = "sub-section">
-						<strong>Lyons Township High School</strong>, 3.89/4.00 unweighted, 5.11/4.00 weighted GPA
-						<br>
-						La Grange, IL, Graduated in May 2015
-						<img id = "lths-image" class = "picture" src = "http://www.pitt.edu/~mdd50/lths.jpg" height = "200px" width = "225px">
-					</div>
-					<p class = "general-paragraph">
-						Honors: National Honor Society, Illinois State Scholar, AP Scholar with Distinction, Honors Graduate, top 5% of class (36/1020 class rank)
-					</p>
-				</p>
-			</div>
-		</div>
-		<div id="footer">
-		Copyright © Christine Hicaro 2016
-		</div>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/smoothscroll.js"></script>

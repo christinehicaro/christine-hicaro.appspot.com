@@ -12,3 +12,21 @@ $(function() {
     }
   });
 });
+
+$(document).ready(function() {
+      $("#EP-info").hide();
+      $("#fhmp-info").hide();
+      $("#CSSI-info").hide();
+});
+
+$("#google-logo-EP").click(function(){
+    $("#EP-info").toggle();
+})
+
+$("#iowa-state-logo-fhmp").click(function(){
+    $("#fhmp-info").toggle();
+})
+
+$("#google-logo-CSSI").click(function(){
+    $("#CSSI-info").toggle();
+})
