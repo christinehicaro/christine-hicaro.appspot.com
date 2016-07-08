@@ -61,7 +61,8 @@ body{width:100%;}
              top: 25px}
 #EP-title{float:right;
           position: relative;
-          top: -160px;}
+          top: -160px;
+          left: -24%}
 #EP-heading-sub{float:right;
                 position: relative;
                 top: -170px;
